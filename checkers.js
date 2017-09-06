@@ -286,4 +286,40 @@ function main() {
 
 
 
-main();
+function handleCheckerClick(event) {
+    event.preventDefault();
+    var parentId = event.target.parentElement.id;
+    var x = parseInt(parentId.CharAt(7));
+    var y = parseInt(parentId.CharAt(9));
+    var moves =  getLegalMoves() // more here ran out of time
+}
+
+
+
+
+
+
+
+
+function setup() // needs more fell behind
+{
+    var board = document.createElement('section');
+    board.id = 'game-board';
+    document.body.appendChild(board);
+    for (var y = 0; y < state.board.length; y++){
+        for (var x = 0 x < state.board[y].length; y++){
+            var square = document.createElement('div');
+            square.id = "square-" + x 
+            square.classList.add('square');
+            if ((y + x) % 2 === 1) square.classList.add('black');
+            board.appendChild(square);
+            if (state.board[y][x])
+            {
+                var checker = document.createElement('div');
+                checker.classList
+            }
+        }
+    }
+}
+setup();
+
