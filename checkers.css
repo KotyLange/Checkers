@@ -1,11 +1,11 @@
 /* checkers.css */
 #game-board {
-     border: 1px solid black;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     width: 1000px;
-     height: 1000px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
 }
 
 .square {
@@ -14,7 +14,7 @@
     height: 100px;
 }
 
-.black{
+.black {
     background-color: darkgray;
 }
 
@@ -22,8 +22,8 @@
     width: 90px;
     height: 90px;
     margin: 5px;
-    border-radius:  ; //needs more fell behind
-    border-shadow: ;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px gray;
 }
 
 .checker-w {
